@@ -1,0 +1,39 @@
+1.)  Unary Operators <-----single operand
+ that are    +             -          ++        --        typecast
+           positive     negative   increment   decrement 
+
+           
+    i. increment Operators are two typecast
+          a) pre increment      ++a
+          b) Post increment     a++
+
+Questions=>
+Q1.) a= 2
+     b = 6
+ a = ++a - b-- + a + b
+
+Q2.)
+    x = 10 
+    x = x++ +(++x) % 5
+
+Q3.) m = 20  n = 15
+     m = m+ n++  + ++m
+
+Q4.) p= 75 q= 90
+   q
+
+Q5.) a= 7
+a=a++ + ++a + --a + a--
+
+Q6.) int a = 10, b=11, c=12
+   int d = a++  * a++ + ++b / c++ + c++ 
+
+Q7.) x = 10
+x = x++ + ++x % 5
+
+Q8.) a = 2 ,b = 3, c= 10
+a= --a + b*3 + c++ - ++b
+
+
+
+*** increment / Decrement Operators should be applied only on variables not on constants
